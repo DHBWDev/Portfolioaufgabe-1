@@ -18,4 +18,3 @@ public class BenutzerBean {
     @PersistenceContext
     EntityManager em;
 }
-    
