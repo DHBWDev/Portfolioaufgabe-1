@@ -3,11 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Aufgabe.ejb;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 
 /**
  *
  * @author Fabio Kraemer
  */
-public class newClass {
-    
+@Stateless
+public class NachrichtBean {
+    @PersistenceContext
+    EntityManager em;
 }

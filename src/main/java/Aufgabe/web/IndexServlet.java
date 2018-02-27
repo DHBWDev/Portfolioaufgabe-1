@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Aufgabe.web;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
 
 /**
  *
  * @author Fabio Kraemer
  */
-public class newClass {
+@WebServlet(urlPatterns="/index.html")
+public class IndexServlet extends HttpServlet {
     
 }
-c. a. ...s,fmsmfm,ö
