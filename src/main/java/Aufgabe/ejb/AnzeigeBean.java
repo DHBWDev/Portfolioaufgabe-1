@@ -26,7 +26,7 @@ public class AnzeigeBean {
     /**
      * Anlegen einer neuen Anzeige.
      */
-    public Anzeige createNewWaste(String art, String titel, String beschreibung, Date erstellungsDatum, Date onlineBis, double preisVorstellung, String artDesPreises, int plz, String ort) {
+    public Anzeige createNewAnzeige(String art, String titel, String beschreibung, Date erstellungsDatum, Date onlineBis, double preisVorstellung, String artDesPreises, int plz, String ort) {
         Anzeige anzeige = new Anzeige(art, titel, beschreibung, erstellungsDatum, onlineBis, preisVorstellung, artDesPreises, plz, ort);
         em.persist(anzeige);
         return em.merge(anzeige);
