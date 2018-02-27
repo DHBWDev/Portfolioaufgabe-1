@@ -18,4 +18,6 @@ import javax.persistence.PersistenceContext;
 public class AnzeigeBean {
     @PersistenceContext
     EntityManager em;
+    
+    
 }
