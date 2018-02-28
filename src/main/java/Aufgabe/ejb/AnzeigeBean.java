@@ -25,6 +25,16 @@ public class AnzeigeBean {
     
     /**
      * Anlegen einer neuen Anzeige.
+     * @param art
+     * @param titel
+     * @param beschreibung
+     * @param erstellungsDatum
+     * @param onlineBis
+     * @param preisVorstellung
+     * @param artDesPreises
+     * @param plz
+     * @param ort
+     * @return 
      */
     public Anzeige createNewAnzeige(String art, String titel, String beschreibung, Date erstellungsDatum, Date onlineBis, double preisVorstellung, String artDesPreises, int plz, String ort) {
         Anzeige anzeige = new Anzeige(art, titel, beschreibung, erstellungsDatum, onlineBis, preisVorstellung, artDesPreises, plz, ort);

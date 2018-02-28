@@ -23,8 +23,17 @@ public class BenutzerBean {
 
     /**
      * Anlegen eines neuen Benutzers.
-     *
-     *
+     * @param benutzername
+     * @param passwort
+     * @param vorname
+     * @param nachname
+     * @param ort
+     * @param hausnummer
+     * @param plz
+     * @param strasse
+     * @param land
+     * @param email
+     * @param telefonnummer
      * @return Der angelegte Benutzer
      */
     public Benutzer createNewBenutzer(String benutzername, String passwort, String vorname, String nachname, String strasse, int hausnummer, int plz, String ort, String land, String email, String telefonnummer) {

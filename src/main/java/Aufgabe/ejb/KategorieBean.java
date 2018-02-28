@@ -22,7 +22,8 @@ public class KategorieBean {
     
     /**
      * Anlegen einer neuen Kategorie.
-
+     * @param slug
+     * @param name
      * @return Der angelegten Kategorie
      */
     public Kategorie createNewKategorie(int slug, String name) {

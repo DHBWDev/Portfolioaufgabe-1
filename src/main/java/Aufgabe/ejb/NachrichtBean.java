@@ -23,6 +23,9 @@ public class NachrichtBean {
     
     /**
      * Anlegen einer neuen Nachricht.
+     * @param vonBenutzer
+     * @param anBenutzer
+     * @param text
      * @return Der angelegten Nachricht
      */
     public Nachricht createNewNachricht(Benutzer vonBenutzer, Benutzer anBenutzer, String text) {
